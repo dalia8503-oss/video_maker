@@ -1,0 +1,44 @@
+# API 키 및 시크릿 (절대 커밋 금지)
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+.Python
+
+# 가상환경
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+
+# 빌드/배포
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# 임시 파일
+*.tmp
+*.mp4
+*.mp3
+*.log
+tmp/
+temp/
+
+# 로컬 데이터
+TEST/
+data_movie/
+.emoji_cache/
+=1.0.0
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
